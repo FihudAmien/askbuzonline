@@ -1,0 +1,255 @@
+body {
+    font-family: Poppins;
+}
+
+.cs-blog-detail .cs-text .post-option {
+    border-top: 1px solid #f0f0f0;
+    float: left;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.cs-blog-detail .cs-text .post-option span a {
+    color: #acacac;
+    font-family: Poppins;
+}
+
+.cs-blog .cs-categories,
+.cs-blog-detail .cs-categories {
+    display: block;
+    margin: 0 0 12px;
+}
+
+.cs-blog .cs-categories a,
+.cs-blog-detail .cs-categories a {
+    border-bottom: 2px solid #ededed;
+    color: #55a747;
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 5px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.cs-blog-detail .post-option {
+    float: right;
+}
+
+.cs-blog .post-option span a,
+.cs-blog-detail .post-option span a {
+    color: #999 !important;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 18px;
+    vertical-align: middle;
+}
+
+.cs-blog .post-option span i,
+.cs-blog-detail .post-option span i {
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cs-blog-detail .post-option span.post-category i {
+    margin: 0;
+}
+
+.cs-blog-detail .post-option .post-category a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.cs-blog-detail .post-option .post-date {
+    margin-left: 18px;
+}
+
+.cs-blog-detail .cs-text .post-option span i {
+    float: left;
+    margin: 3px 8px 0 0;
+}
+
+.cs-blog.blog-grid figure img {
+    width: 100%;
+}
+
+.cs-blog.blog-grid .cs-media~.blog-text {
+    margin: -30px 0 0;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.cs-blog.blog-grid .cs-inner-bolg {
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px 25px;
+    width: 100%;
+}
+
+.cs-blog.blog-grid .blog-text p {
+    margin: 0 0 5px;
+}
+
+.cs-blog.blog-grid .post-option {
+    line-height: normal;
+    margin: 0 0 10px;
+}
+
+.cs-blog.blog-grid .post-option span {
+    color: #8b919e;
+    font-size: 10px;
+    margin: 0 15px 0 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.cs-blog.blog-grid .post-option span::before {
+    background-color: #8b919e;
+    border-radius: 100%;
+    content: "";
+    height: 3px;
+    left: -10px;
+    position: absolute;
+    top: 5px;
+    width: 3px;
+}
+
+.cs-blog.blog-grid .post-option span:last-child {
+    margin: 0;
+}
+
+.cs-blog.blog-grid .post-option span:first-child::before {
+    display: none;
+}
+
+.cs-blog.blog-grid .read-more {
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+}
+
+.cs-blog.blog-grid .read-more::before {
+    content: "";
+    font-family: "icomoon";
+    font-size: 14px;
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+
+.blog-large .cs-media img {
+    width: 100%;
+}
+
+.blog-large .cs-text {
+    margin: 0 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-large .cs-media~.cs-text {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 30px 0 0;
+    width: 100%;
+}
+
+.cs-blog .cs-author,
+.cs-blog-detail .cs-author {
+    float: left;
+    margin: 0 0 10px;
+}
+
+.cs-blog .cs-author figure,
+.cs-blog-detail .cs-author figure {
+    display: inline-block;
+    height: 32px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    width: 32px;
+}
+
+.cs-blog .cs-author figure img,
+.cs-blog-detail .cs-author figure img {
+    border-radius: 100%;
+}
+
+.cs-blog .cs-author .cs-text,
+.cs-blog-detail .cs-author .cs-text {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.cs-blog .cs-author .cs-text a,
+.cs-blog-detail .cs-author .cs-text a {
+    color: #555;
+    font-size: 13px;
+}
+
+.blog-large .post-option,
+.cs-blog.blog-medium .post-option {
+    float: right;
+}
+
+.cs-blog.blog-large .post-option span i,
+.cs-blog.blog-medium .post-option span i {
+    color: #cfcfcf;
+}
+
+.post-option span i {
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.blog-separator {
+    border-bottom: 1px solid #f1f1f1;
+    display: inline-block;
+    margin: 20px 0 25px;
+    position: relative;
+    width: 100%;
+}
+
+.blog-large .cs-text p {
+    margin: 0 0 25px;
+}
+
+.blog-large .read-more {
+    border: 1px solid;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 20px;
+    text-transform: uppercase;
+}
+
+.blog-large .cs-post-title {
+    margin: 0 0 15px;
+}
+
+.blog-large .cs-post-title h3 {
+    margin: 0;
+}
+
+.cs-blog-detail .cs-post-title h1 {
+    margin: 0 0 10px;
+}
+
+.cs-blog-detail .cs-post-title::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.cs-blog-detail .cs-main-post img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .post-option {
+        text-align: right;
+    }
+}

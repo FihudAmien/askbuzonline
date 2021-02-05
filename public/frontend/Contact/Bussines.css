@@ -1,0 +1,161 @@
+        body {
+            font-family: Poppins;
+        }
+        
+        p {
+            color: #c0c0c0;
+        }
+        
+        .footerset {
+            margin-top: 130px;
+        }
+        /* breadcrumb */
+        
+        .breadcrumb {
+            margin-top: 50px;
+            margin-left: 30px;
+            background-color: #fff;
+            margin-bottom: 30px;
+        }
+        
+        .colorheader {
+            color: #187dbd;
+        }
+        
+        .tmm-team .item-square-2 {
+            background-color: #fff;
+            text-align: center;
+            border: 1px solid #0C9FD6;
+            display: inline-block;
+            width: 209px;
+            overflow: hidden;
+            -webkit-transition: -webkit-transform .35s linear;
+            transition: transform .35s linear;
+            margin: -2;
+            height: 100%;
+        }
+        
+        .tmm-team .item-square-2:hover {
+            border: 1px solid #0C9FD6;
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        
+        .tmm-team .item-square-2 .title h3 {
+            font-weight: 500;
+            font-size: 18px;
+            padding: 10px 5px;
+            color: #0C9FD6;
+            -webkit-transition: all .35s linear;
+            transition: all .35s linear;
+            margin-top: 10px;
+        }
+        
+        .tmm-team .item-square-2 .face {
+            overflow: hidden;
+            margin: 0 auto;
+            border: none;
+            -webkit-transition: -webkit-transform .5s linear;
+            transition: transform .5s linear;
+        }
+        
+        .tmm-team .item-square-2 .face img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .tmm-team .item-square-2 .footer {
+            background-color: #187dbd;
+            -webkit-transition: background-color .35s linear;
+            transition: background-color .35s linear;
+        }
+        
+        .tmm-team .item-square-2:hover .footer {
+            background-color: #292929;
+            /*-webkit-transition: background-color .35s;transition: background-color .35s;*/
+        }
+        
+        .tmm-team .item-square-2 .item-content h4 {
+            font-weight: 300;
+            font-size: 14px;
+            color: #fff;
+            padding-top: 10px;
+        }
+        
+        .tmm-team .item-square-2 .social-icons {
+            background-color: transparent;
+            padding: 10px 0;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li {
+            padding: 0 2px;
+            display: inline-block;
+            list-style: none;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li a {
+            border: 1px solid #fff;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 3px;
+            position: relative;
+            z-index: 1;
+            -webkit-transition: color .35s, border-color .35s;
+            transition: color .35s, border-color .35s;
+            width: 35px;
+            height: 35px;
+            display: block;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li:hover a {
+            z-index: 1;
+            -webkit-transition: color .35s;
+            transition: color .35s;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li a:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background-color: #666666;
+            content: "";
+            z-index: -1;
+            -webkit-transition: height .35s;
+            transition: height .35s;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li a:hover:after {
+            height: 100%;
+            z-index: -1;
+            -webkit-transition: height .35s;
+            transition: height .35s;
+        }
+        
+        .tmm-team .item-square-2:hover .social-icons li a {
+            border-color: #666666;
+            color: #666666;
+            -webkit-transition: color .35s, border-color .35s;
+            transition: color .35s, border-color .35s;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li:nth-child(1):hover a {
+            color: #187dbd;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li:nth-child(2):hover a {
+            color: #1ed0d6;
+        }
+        
+        .tmm-team .item-square-2 .social-icons li:nth-child(3):hover a {
+            color: #fb7db5;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .tmm-team .item-square-2 .face img {
+                width: 100%;
+                height: 100%;
+            }
+        }
